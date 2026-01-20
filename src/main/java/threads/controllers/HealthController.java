@@ -11,6 +11,11 @@ public class HealthController {
     @GetMapping(value = "/getHealth")
      public ResponseEntity<String>getApplicationHealth(){
         return ResponseEntity.ok("200");
+    }
+
+    @GetMapping(value = "/health")
+    public String getApplicationHealthString(){
+        return "200";
 
     }
 
