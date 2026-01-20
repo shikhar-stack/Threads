@@ -1,4 +1,4 @@
-package net.engineeringdigest.journalApp;
+package threads;
 
 
 import org.springframework.boot.SpringApplication;
